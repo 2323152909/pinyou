@@ -1,0 +1,62 @@
+/* 列表页专有的样式 */
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    border-left: 1px solid #b1191a;
+    left: 185px;
+    top: 40px;
+    padding: 3px 0 0 15px;
+}
+.sk_list{
+    float: left;
+    width: 360px;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 0 28px;
+    color: #000;
+}
+.sk_list ul li a:hover{
+    color: #b1191a;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 24px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 2px;
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    margin-right: 13px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #b1191a;
+}
+.footer{
+    margin-top: 282px;
+}

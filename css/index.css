@@ -1,0 +1,275 @@
+/* 首页专有的样式 */
+/* main主体部分 */
+.main{
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus{
+    float: left;
+    width: 720px;
+    height: 455px;
+}
+
+.newsflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news{
+    height: 165px;
+    padding: 0 15px;
+    border: 1px solid #e4e4e4;
+}
+.news_hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news_hd h5{
+    float: left;
+}
+.news_hd .more{
+    float: right;
+}
+.news_hd .more::after{
+    content:'\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+.news_bd ul li{
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice{
+    height: 209px;
+    /* background-color: skyblue; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    position: relative;
+    float: left;
+    height: 71px;
+    width: 63px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 20px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 13px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.lifeservice ul li:nth-child(2)::after{
+    content:'减';
+    top: 0;
+    right: 0;
+    color: #fff;
+    display: block;
+    background-color: #589d5a;
+    position: absolute;
+    width: 15px;
+    height: 20px;
+}
+
+.bargain{
+    margin-top: 5px;
+}
+
+/* 推荐部分 */
+.recommend{
+    height: 163px;
+    margin-top: 12px;
+}
+.recommend_hd{
+    float: left;
+    width: 208px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    line-height: 163px;
+}
+.recommend_bd{
+    float: left;
+    width: 992px;
+    height: 163px;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+.recommend_bd ul li{
+    position: relative;
+    float: left;
+}
+.recommend_bd ul li img{
+    width: 248px;
+    height: 163px;
+}
+.recommend_bd ul li:nth-child(-n+3):after{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    content: '';
+    display: block;
+    height: 145px;
+    width: 1px;
+    background-color: #ddd;
+}
+
+.guess{
+    height: 270px;
+    margin-top: 22px;
+}
+.guess_hd{
+    height: 40px;
+    line-height: 40px;
+}
+.guess_hd h5{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+.guess_hd a{
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.guess_hd a::after{
+    content: '\ea2e';
+    font-family: 'icomoon';
+    margin-left: 5px;
+    color: #ccc;
+}
+.guess_bd{
+    height: 230px;
+    line-height: 230px;
+    border: 1px solid #e4e4e4;
+}
+.guess_bd ul{
+    width: 1235px;
+}
+.guess_bd ul li{
+    float: left;
+    padding: 0 30px;
+    position: relative;
+}
+.guess_bd ul li:nth-child(-n+5):after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    height: 64px;
+    width: 1px;
+    background-color: #ededed;
+}
+
+/* 电梯区域 */
+.floor{
+    margin-top: 22px;
+}
+/* 电梯去所有头部高度都一样，所有可以提出来公共使用 */
+.box_hd{
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab-list ul li{
+    float: left;
+}
+.tab-list ul li a{
+    padding: 0 13px;
+}
+.box_hd .tab-list{
+    float: right;
+}
+.jiadian .box_hd h3{
+    float: left;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+}
+.tab_list_mask{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col_210{
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    padding-left: 10px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    margin-left: 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.col_329{
+    width: 329px;
+    height: 361px;
+    background-color: #aed6d8;
+}
+.col_221{
+    width: 221px;
+}
+.col_219{
+    width: 219px;
+}
+/* 为元素添加下边框 */
+.bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+/* 为元素添加右边框 */
+.br{
+    display: block;
+    border-right: 1px solid #ccc;
+}
+
+.hotsk{
+    /* height: 362px; */
+    position: relative;
+    margin-bottom: 38px;
+}
+.hotsk h3{
+    position: absolute;
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    height: 44px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.hotsk img{
+    margin-left: -5px;
+}
